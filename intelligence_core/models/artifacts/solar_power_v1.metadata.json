@@ -1,0 +1,21 @@
+{
+  "model_version": "solar_power_v1",
+  "trained_at": "2026-09-06T12:35:32.851083+00:00",
+  "model_type": "RandomForestRegressor",
+  "feature_columns": [
+    "irradiance",
+    "panel_temperature",
+    "hour",
+    "day_of_year"
+  ],
+  "target_column": "ac_power",
+  "n_train_samples": 2304,
+  "n_test_samples": 576,
+  "metrics": {
+    "mae": 0.0459,
+    "rmse": 0.0591,
+    "mape_percent": 28.53,
+    "r2": 0.9995,
+    "n_samples": 576
+  }
+}
