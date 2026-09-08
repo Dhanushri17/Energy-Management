@@ -10,3 +10,16 @@ __pycache__/
 backend/.env.old
 *.env.old
 intelligence_core/data/plots/
+# AI Agent local-only files
+agent/
+diagnosis/
+feedback/
+reasoning/
+recommendation/
+test/
+tools/
+verification/
+main.py
+test_adaptive.py
+test_adaptive_e2e.py
+test_multi_round_adaptive.py
